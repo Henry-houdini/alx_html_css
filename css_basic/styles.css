@@ -1,0 +1,21 @@
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    display: flex;
+    flex: 2;
+}
+
+aside {
+    display: flex;
+    flex: 1;
+}
+
+
+article, aside {
+    overflow-y: auto;
+}
